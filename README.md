@@ -8,7 +8,7 @@
 
 ### Скрипт `make_own_db.py`.
 
-Запрашивает ключ к [API TMDB](https://www.themoviedb.org/), если API введен не корректно выдаст ошибку `Invalid api key` и завершит работу скрипта, если корректен создает базу данных.
+Запрашивает ключ к [API](https://www.themoviedb.org/) TMDB, если API введен не корректно выдаст ошибку `Invalid api key` и завершит работу скрипта, если корректен создает базу данных.
 Пример корректного запроса к API и создание БД:
 ```
 please, wait, this operation may take smth like 15-20 minutes
