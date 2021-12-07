@@ -72,7 +72,7 @@ if __name__ == '__main__':
     movie_number = 176
     print(make_tmdb_api_request(method='/movie/%d' % movie_number, api_key=user_api_key)['budget'])
 ```
-При запуске скрипт просит вас ввести ключ к [API TMDB]](https://www.themoviedb.org/), если ключ не корректный выдаст ошибку и завершит работу скрипта.
+При запуске скрипт просит вас ввести ключ к [API TMDB](https://www.themoviedb.org/), если ключ не корректный выдаст ошибку и завершит работу скрипта.
 Пример некорректного ввода API:
 ```
 Enter your api key v3:
